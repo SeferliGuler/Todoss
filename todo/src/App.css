@@ -1,0 +1,63 @@
+.App {
+  margin: 0 ;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.todo-giriniz{
+  width: 400px;
+  padding: 5px 2px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+}
+
+.todo-create{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.ekle{
+  margin-top: 5px;
+  width: 100px;
+  height: 40px;
+  border: none;
+  background-color: rgb(255, 255, 0);
+  margin-left: 300px;
+  cursor: pointer;
+}
+
+ .todo-parent{
+  margin: auto;
+  width: 485px;
+ }
+
+ .todo-input{
+  width: 300px;
+ }
+
+ .todo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ccc;
+  width: 400px;
+  border-radius: 2px;
+  padding: 5px;
+  margin-left: 38px;
+  margin-top: 5px;
+ }
+
+ .icon{
+  font-size: 25px;
+  margin-left: 10px;
+  cursor: pointer;
+ }
+
+  .input{
+    border: none;
+    outline: none;
+  }
